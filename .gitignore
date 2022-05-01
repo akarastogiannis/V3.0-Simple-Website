@@ -1,0 +1,4 @@
+# This is the gitignore file for this repo
+
+#### Ignore ds_store files from mac
+.DS_Store
