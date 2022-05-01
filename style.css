@@ -27,12 +27,12 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-a {
+.logo-link {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+.logo-link:hover {
     color: #F5F5F5;
 }
 
@@ -93,4 +93,40 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+/* Style for paragraph title */
+.lead-title {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Style for main description paragraph */
+.lead {
+  font-size: 1.1rem;
+}
+
+/* Style for text that I want to standout in a paragraph*/
+.stand-out-text {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Style for university-link in main */
+.uni-link {
+  color: white;
+}
+
+.uni-link:hover {
+  color: silver;
+}
+
+/* Style for Social Media Links */
+.social-links {
+  text-decoration: none;
+  color: white;
+  padding: .2rem;
+}
+
+.social-links:hover {
+  color: rgb(65, 59, 59);
 }
