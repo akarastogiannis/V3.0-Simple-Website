@@ -28,6 +28,7 @@
 }
 
 .logo-link {
+    font-family: 'Ms Madi', cursive;
     text-decoration: none;
     color: white;
 }
@@ -97,7 +98,8 @@ body {
 
 /* Style for paragraph title */
 .lead-title {
-  font-family: 'Pacifico', cursive;
+  /* font-family: 'Pacifico', cursive; */
+  font-style: italic;
 }
 
 /* Style for main description paragraph */
@@ -129,4 +131,10 @@ body {
 
 .social-links:hover {
   color: rgb(65, 59, 59);
+}
+
+/* Style for web version number at footer */
+.web-ver {
+  font-family: 'Bungee Shade', 'cursive';
+  color:aliceblue;
 }
